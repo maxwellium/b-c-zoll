@@ -1,1 +1,1 @@
-export default function zoll(schema?: any): (data: any) => void;
+export declare function zoll<T>(schema?: any): (data: any) => T;
